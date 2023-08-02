@@ -10,8 +10,11 @@ for(var i = 26; i < 75; i += 2)
 
 // Challenge 2
 // Use a for statement to log to the console a complete sentence stating the weather using the Array below:
-var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
+var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]{
 
+for (var i = 0; i < weather_options:, i++)
+  console.log("The weather today is " + weather_options[i])
+}
 
 
 
