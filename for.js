@@ -19,8 +19,10 @@ var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 // Use a for statement to log to the console only the words that are exactly 3 characters in length
 var words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
-for( var i = 0; 1 === 3; i++)
-  console.log(i)
+for( var i = 0; 1 < words.length; i++){
+  if (words[i].length === 3)
+  console.log(words[i])
+}
 
 // 📹 Record yourself live-coding and talking through any ONE of the challenges. 
   // The recording doesn't have to be the first time you are solving the problem. 
