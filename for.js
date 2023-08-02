@@ -24,7 +24,7 @@ var words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 for( var i = 0; 1 < words.length; i++){
   if (words[i].length === 3)
-  console.log(words[i])
+  console.log(words[i].length)
 }
 
 // 📹 Record yourself live-coding and talking through any ONE of the challenges. 
